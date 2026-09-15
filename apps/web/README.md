@@ -100,4 +100,3 @@ CHROMIUM=/путь/к/chrome node e2e/smoke.mjs
 Адрес API по умолчанию — `http://localhost:4001`; фронтенд работает на любом localhost-порту (CORS API это разрешает). Сменить адрес API фронтенда: `VITE_API_BASE=http://localhost:4101 npm run dev` (из этой папки или `npm run dev:web` из корня).
 
 Генерация тестовая: после задержки сервер возвращает локальное SVG-изображение или ошибку сценария. Сброс данных API — `npm run data:reset` из корня при остановленном сервере.
-
